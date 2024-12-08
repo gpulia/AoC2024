@@ -40,14 +40,4 @@ for freq in frequency:  #go through each frequency type
                 p2x -= slopeX
                 p2y -= slopeY
                 p2 = (p2x,p2y)
-
-for l,line in enumerate(data):
-    stri = ""
-    for c,cha in enumerate(line):
-        if (c,l) in ans:
-            stri += '#'
-        else:
-            stri += cha
-    print(stri)
-print(ans)
 print(len(ans))
